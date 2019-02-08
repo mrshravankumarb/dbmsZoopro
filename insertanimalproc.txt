@@ -1,0 +1,5 @@
+CREATE PROCEDURE insertanimal(in ssn varchar(10),
+ aniid int(10), aniname varchar(20), sciname varchar(20),
+aniclass varchar(20), weight varchar(10), age int(2), adopted_by varchar(20), 
+date_of_arrival date) BEGIN insert into animal values(ssn,aniid,aniname,sciname,aniclass,
+weight,age,adopted_by,date_of_arrival); END

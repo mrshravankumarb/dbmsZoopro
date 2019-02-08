@@ -1,0 +1,5 @@
+DELIMITER //
+create procedure delani(IN aid varchar(10))
+BEGIN
+DELETE FROM animalz WHERE aniid='aid';
+END //
